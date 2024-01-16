@@ -15,7 +15,7 @@ function Nav() {
     ];
   
     return (
-      <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll position="static" className="bg-pink">
+      <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll position="static" className="bg-transparent">
         <NavbarContent>
           <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
