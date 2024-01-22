@@ -15,7 +15,7 @@ function Nav() {
     ];
   
     return (
-      <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll position="static" className="bg-transparent">
+      <Navbar onMenuOpenChange={setIsMenuOpen} position="static" className="bg-pink">
         <NavbarContent>
           <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -54,7 +54,7 @@ function Nav() {
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem className="lg:flex">
-            <img src={Arg} width={30} alt="Argentina Flag" />
+            <img src={Arg} width={30} />
           </NavbarItem>
         </NavbarContent>
         <NavbarMenu className="bg-pink pt-4">

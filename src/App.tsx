@@ -1,12 +1,9 @@
-/* 
- import Footer from "./components/Footer"
-import Page from "./components/Page"
- */
+import Home from "./pages/Home"
+
 function App() {
   return (
     <>
-{/*       <Page />
- */}{/*       <Footer/> */}
+      <Home />
     </>
   )
 }
