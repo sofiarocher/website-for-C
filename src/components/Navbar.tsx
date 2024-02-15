@@ -27,28 +27,33 @@ function Nav() {
         </NavbarContent>
         <NavbarContent className="hidden sm:flex gap-7" justify="center">
           <NavbarItem>
-            <Link href="#" className="text-brown font-bold">
+            <Link href="/" className="text-brown font-bold">
+              Inicio
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link href="/sobremi" className="text-brown font-bold">
               Sobre Mí
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link href="#" className="text-brown font-bold">
+            <Link href="/online" className="text-brown font-bold">
               Online
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link href="#" className="text-brown font-bold">
+            <Link href="/presenciales" className="text-brown font-bold">
               Presenciales
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link href="#" className="text-brown font-bold">
-              Personalizados
+              Formación Intensiva
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link href="#" className="text-brown font-bold">
-              Formación Intensiva
+            <Link href="/asesorias" className="text-brown font-bold">
+              Asesorías
             </Link>
           </NavbarItem>
         </NavbarContent>
