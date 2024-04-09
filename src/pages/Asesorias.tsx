@@ -1,9 +1,9 @@
-import Page from "../components/Page"
+import Page from "../components/Layout"
 import bgImage from "../assets/bgImage.jpg"
 import Vsl from "../components/Vsl"
 import Footer from "../components/Footer"
 import vsl from "../assets/bgvideo.mp4"
-import Contact from "../components/Contact"
+import Contact from "../components/Contacto"
 
 
 

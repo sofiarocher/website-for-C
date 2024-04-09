@@ -1,7 +1,7 @@
-import Page from "../components/Page"
+import Page from "../components/Layout"
 import bgImage from "../assets/bgImage.jpg"
 import Counter from "../components/Count"
-import CardCourse from "../components/CardCourse"
+import CardCourse from "../components/CardCurso"
 import imgCourse from "../assets/imgCurso.webp"
 import imgCourse2 from "../assets/imgCurso2.webp"
 import imgCourse3 from "../assets/imgCurso3.webp"
@@ -9,7 +9,7 @@ import CardFormacion from "../components/CardFormacion"
 import Footer from "../components/Footer"
 import Newsletter from "../components/Newsletter"
 import Cam from "../assets/Cam.png"
-import Results from "../components/Results"
+import Results from "../components/Resultados"
 
 function Home() {
   return (

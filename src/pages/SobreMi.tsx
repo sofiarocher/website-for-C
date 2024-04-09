@@ -1,9 +1,9 @@
-import Page from "../components/Page"
+import Page from "../components/Layout"
 import bgImage from "../assets/bgImage.jpg"
 import Footer from "../components/Footer"
 import Cam from "../assets/Cam.png"
-import Contact from "../components/Contact"
-import Places from "../components/Places"
+import Contact from "../components/Contacto"
+import Places from "../components/Lugares"
 
 function SobreMi() {
   return (
