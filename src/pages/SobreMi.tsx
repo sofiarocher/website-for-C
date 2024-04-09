@@ -3,6 +3,7 @@ import bgImage from "../assets/bgImage.jpg"
 import Footer from "../components/Footer"
 import Cam from "../assets/Cam.png"
 import Contact from "../components/Contact"
+import Places from "../components/Places"
 
 function SobreMi() {
   return (
@@ -26,7 +27,7 @@ function SobreMi() {
             </div>
         </div>
         FALTA PROCESO DE VIDA
-        FALTA LUGARES
+        <Places />
         <Contact />
         <Footer />
     </div>

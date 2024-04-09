@@ -1,0 +1,25 @@
+.animate-scroll {
+  display: flex;
+  animation: scroll 20s linear infinite;
+  width: calc(100% * 2); /* Ajusta esto según el número de tarjetas duplicadas */
+}
+
+.animate-scroll > div {
+  flex: 0 0 auto;
+  width: 248px; /* Ajusta esto según el ancho deseado de las tarjetas */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Mueve solo la mitad para el carrusel duplicado */
+  }
+}
+
+@media (max-width: 900px) {
+  .animate-scroll {
+    width: calc(100% * 7)
+  }
+}

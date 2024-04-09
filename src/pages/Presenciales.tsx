@@ -7,6 +7,7 @@ import imgCourse3 from "../assets/imgCurso3.webp"
 import Vsl from "../components/Vsl"
 import Footer from "../components/Footer"
 import vsl from "../assets/bgvideo.mp4"
+import Results from "../components/Results"
 
 
 
@@ -28,9 +29,9 @@ function Presenciales() {
             </div>
         </div>
         <Vsl title="Estos cursos son para vos si..." video={vsl} />
+        <Results />
         FALTAA
         Testimonios
-        Resultados
         <Footer />
     </div>
   )

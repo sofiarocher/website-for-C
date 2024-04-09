@@ -2,7 +2,7 @@
 interface CardProps {
   img: any;
   title: string;
-  infoLink: any;
+  infoLink?: any;
 }
 
 function CardCourse({title, img, infoLink} : CardProps) {

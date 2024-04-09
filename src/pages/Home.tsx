@@ -9,6 +9,7 @@ import CardFormacion from "../components/CardFormacion"
 import Footer from "../components/Footer"
 import Newsletter from "../components/Newsletter"
 import Cam from "../assets/Cam.png"
+import Results from "../components/Results"
 
 function Home() {
   return (
@@ -42,6 +43,7 @@ function Home() {
             </div>
             <CardFormacion />
         </div>
+        <Results></Results>
         <Newsletter />
         <Footer />
     </div>
