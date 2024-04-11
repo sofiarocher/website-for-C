@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Pastry Courses Lead Generation Website
 
-Currently, two official plugins are available:
+Welcome to the project repository for our lead generation website, designed exclusively for Camila, a distinguished provider of pastry courses looking to enhance her online presence. This website aims to attract and engage aspiring pastry chefs and baking enthusiasts, encouraging them to sign up for world-class pastry courses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Status 
+In Progress: We are actively developing the site, focusing on creating an inviting and informative online experience that reflects the quality and passion behind our client's pastry courses.
+## Features
 
-## Expanding the ESLint configuration
+- Course Showcase: Highlighting the range of pastry courses available, with detailed descriptions, schedules, and enrollment options.
+- Lead Generation: Optimized forms and CTAs to encourage visitors to sign up or express interest, effectively capturing lead information.
+- Multilingual Support: Utilizing i18n to offer the website in multiple languages, catering to a global audience of pastry enthusiasts.
+- Responsive Design: Ensuring the website is accessible and visually appealing on all devices, from desktops to mobile phones.
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- TypeScript: For writing scalable and maintainable code, enhancing the website's functionality and performance.
+- Tailwind CSS: Providing utility-first CSS for rapid UI development, ensuring a polished and cohesive design.
+- NextUI: Implementing NextUI components to create a modern, user-friendly interface that enhances user experience.
+- i18n: Integrating internationalization for multi-language support, making the website accessible to a diverse audience.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Clone website-for-C
+
+```bash
+  git clone https://github.com/sofiarocher/website-for-C.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Install the packages 
+```bash
+  npm install
+```
+
+Run my website-for-C
+```bash
+  npm run start
+```
+    
