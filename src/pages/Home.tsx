@@ -33,7 +33,6 @@ function Home() {
                 </div>
             </div>
         </div>
-
         <div className="flex flex-col items-center justify-center pt-6 bg-pink pb-20">
             <p className="text-3xl text-brown font-bold py-4">Mis Servicios</p>
             <div className="sm:flex sm:flex-row items-center justify-center">
@@ -43,7 +42,7 @@ function Home() {
             </div>
             <CardFormacion />
         </div>
-        <Results></Results>
+        <Results />
         <Newsletter />
         <Footer />
     </div>

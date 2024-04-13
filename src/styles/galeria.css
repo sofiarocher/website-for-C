@@ -1,0 +1,60 @@
+/* Asegúrate de incluir este CSS en tu archivo galeria.css */
+
+/* Centrar los puntos de paginación y colocarlos dentro del carrusel */
+.slick-dots {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  bottom: -20px; /* Ajusta este valor según sea necesario */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+/* Estilos para los botones de paginación (puntos) */
+.slick-dots li button:before {
+  font-size: 8px; /* Ajusta el tamaño de los puntos aquí */
+  color: #eed7d6; /* Cambia el color según tu diseño */
+  opacity: 0.75;
+}
+
+/* Estilo para el punto de paginación activo */
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #824626; /* Cambia el color según tu diseño */
+}
+
+/* Estilos para las flechas */
+.slick-arrow {
+  position: absolute;
+  top: 50%; /* Ajusta para alinear verticalmente */
+  transform: translateY(-50%);
+  z-index: 100;
+  color: black; /* Color del texto o ícono de la flecha */
+  border: none; /* Si no deseas bordes */
+  padding: 10px; /* Tamaño de la flecha */
+  cursor: pointer; /* Cambia el cursor cuando se pasa por encima */
+}
+
+.slick-prev {
+  left: 10px; /* Ajusta para posicionar la flecha izquierda */
+}
+
+.slick-next {
+  right: 10px; /* Ajusta para posicionar la flecha derecha */
+}
+
+
+.slick-slider .slick-prev,
+.slick-slider .slick-next {
+    color: #824626 !important; /* Color del texto o ícono de la flecha */
+}
+
+/* Si estás usando íconos en lugar de texto, podrías necesitar apuntar al pseudo-elemento */
+.slick-slider .slick-prev:before,
+.slick-slider .slick-next:before {
+    color: #824626 !important; /* Color del ícono de la flecha */
+    font-size: 20px !important; /* Tamaño del ícono de la flecha */
+}

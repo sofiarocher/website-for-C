@@ -4,10 +4,11 @@ import Footer from "../components/Footer"
 import Cam from "../assets/Cam.png"
 import Contact from "../components/Contacto"
 import Places from "../components/Lugares"
+import Galeria from "../components/Galeria"
 
 function SobreMi() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
         <Page 
             videoSrc={bgImage} 
             title="MI ENFOQUE EN LA PASTELERÍA" 
@@ -26,7 +27,7 @@ function SobreMi() {
                 <img src={Cam} className="object-cover mt-4 mx-auto sm:mx-0 sm:w-1/5 sm:h-auto sm:mr-4" alt="Cam Villalobos" />
             </div>
         </div>
-        FALTA PROCESO DE VIDA
+        <Galeria/>
         <Places />
         <Contact />
         <Footer />

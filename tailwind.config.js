@@ -4,6 +4,7 @@ import { nextui } from "@nextui-org/react";
 /** @type {import('tailwindcss').Config} */
 export const content = [
   "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+  'node_modules/flowbite-react/lib/esm/**/*.{js,ts,jsx,tsx}',
   "./index.html",
   "./src/**/*.{js,ts,jsx,tsx}"
 ];
@@ -22,4 +23,6 @@ export const theme = {
     }
   },
 };
-export const plugins = [nextui()];
+export const plugins = [
+  nextui()
+];
