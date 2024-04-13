@@ -8,6 +8,37 @@ import Vsl from "../components/Vsl"
 import Footer from "../components/Footer"
 import vsl from "../assets/bgvideo.mp4"
 import Results from "../components/Resultados"
+import Testimonios from "../components/Testimonios"
+
+
+
+const testimoniosData = [
+  {
+    id: 1,
+    descripcion: 'Excelente servicio, atención personalizada y resultados por encima de las expectativas.',
+    nombre: 'Alejandra Ruiz',
+    puntaje: 5,
+  },
+  {
+    id: 2,
+    descripcion: 'Excelente servicio, atención personalizada y resultados por encima de las expectativas.',
+    nombre: 'Roberto Hernández',
+    puntaje: 4,
+  },
+  {
+    id: 3,
+    descripcion: 'Excelente servicio, atención personalizada y resultados por encima de las expectativas.',
+    nombre: 'Carla Mendoza',
+    puntaje: 5,
+  },
+  {
+    id: 4,
+    descripcion: 'Excelente servicio, atención personalizada y resultados por encima de las expectativas.',
+    nombre: 'Carla Mendoza',
+    puntaje: 5,
+  },
+];
+
 
 
 
@@ -29,9 +60,8 @@ function Online() {
             </div>
         </div>
         <Vsl title="Estos cursos son para vos si..." video={vsl} />
+        <Testimonios testimonios={testimoniosData} />
         <Results />
-        FALTAA
-        Testimonios
         <Footer />
     </div>
   )
