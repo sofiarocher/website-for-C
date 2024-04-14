@@ -34,7 +34,7 @@ function Galeria() {
         {
             year: '2016',
             text: 'Primeras facturas veganas de Argentina',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet animi odit modi doloribus temporibus vitae dolorum cupiditate autem ut ullam ipsam quos, iusto similique obcaecati placeat veniam eos nesciunt molestiae esse dicta?'
+            description: 'Lorem ipsum dolor sit similique obcaecati placeat veniam eos nesciunt molestiae esse dicta?'
         },
         {
             year: '2019',
@@ -60,16 +60,16 @@ function Galeria() {
     };
 
     return (
-        <div className='p-2 mb-4 w-2/4 m-auto'>
+        <div className='p-2 mb-4 w-full sm:w-4/5 m-auto'>
             <Slider ref={sliderRef} {...settings}>
                 {slidesData.map((slide, index) => (
-                    <div key={index} className='!flex items-center justify-center m-auto text-center overflow-x-hidden'>
-                        <div className='bg-creme rounded-xl box-shadow text-brown text-center m-4 p-4 w-52'>
+                    <div key={index} className='!flex flex-col sm:flex-row items-center justify-center m-auto text-center overflow-x-hidden'>
+                        <div className='bg-creme rounded-xl box-shadow text-brown text-center m-4 p-4 w-52 mb-8'>
                             <p className='font-extrabold'>{slide.year}</p>
                             <p className='font-medium'>{slide.text}</p>
                         </div>
                         <div>
-                            <p className='text-center ml-8 w-[450px]'>{slide.description}</p>
+                            <p className='text-center m-0 mb-4 hidden sm:flex sm:ml-8 w-80 sm:w-[450px]'>{slide.description}</p>
                         </div>
                     </div>
                 ))}

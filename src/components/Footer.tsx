@@ -3,7 +3,7 @@ import Ig from "../assets/ig.png"
 function Footer() {
   return (
     <div className="bg-pink">
-    <div className="bg-pink flex flex-col sm:flex-row items-center justify-around sm:w-2/4 mx-auto py-3">
+    <div className="bg-pink flex flex-col sm:flex-row items-center justify-around sm:w-2/4 mx-auto py-3 px-4">
         <div className="mb-3 sm:mb-0 sm:mr-2">
           <button className="border p-2.5 rounded-full bg-brown hover:opacity-90 mr-2">
             <a href="#" className="text-white">

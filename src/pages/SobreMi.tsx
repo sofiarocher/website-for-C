@@ -11,7 +11,7 @@ function SobreMi() {
     <div className="overflow-x-hidden">
         <Page 
             videoSrc={bgImage} 
-            title="MI ENFOQUE EN LA PASTELERÍA" 
+            title="Mi enfoque en la pastelería" 
             description="Aprenderás todos los trucos para que tus postres sean más sabrosos y sencillos de hacer. Ahorrá tiempo y dinero, sumate hoy!" 
             buttonText="CURSOS DISPONIBLES" />
         <div className="text-center pt-4 sm:py-12 text-brown bg-white">

@@ -15,7 +15,6 @@ interface TestimoniosProps {
 }
 
 const Testimonios: React.FC<TestimoniosProps> = ({ testimonios }) => {
-  // Configuración de react-slick
   const settings = {
     dots: false,
     infinite: true,
@@ -27,10 +26,24 @@ const Testimonios: React.FC<TestimoniosProps> = ({ testimonios }) => {
     className: 'center',
     centerPadding: '60px',
     adaptiveHeight: true,
+    responsive: [
+      {
+        breakpoint: 1024, // para pantallas menores a 1024px
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 768, // para pantallas menores a 768px
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
   };
 
   return (
-    <div className='bg-pink pt-4'>
+    <div className='bg-pink py-2 sm:px-28 '>
       <div className="container mx-auto px-4 pb-12">
         <h2 className="text-center text-3xl font-bold my-6 text-brown">Testimonios</h2>
         <Slider {...settings} >
@@ -43,14 +56,14 @@ const Testimonios: React.FC<TestimoniosProps> = ({ testimonios }) => {
                 <h5 className="text-gray-900 text-xl font-medium mb-2">
                   {testimonio.nombre}
                 </h5>
-                  <div className="flex">
-                      <div className="star-rating">
-                          {'★'.repeat(testimonio.puntaje)}
-                      </div>
-                      <div className="star-rating gray">
-                          {'★'.repeat(5 - testimonio.puntaje)}
-                      </div>
+                <div className="flex">
+                  <div className="star-rating">
+                    {'★'.repeat(testimonio.puntaje)}
                   </div>
+                  <div className="star-rating gray">
+                    {'★'.repeat(5 - testimonio.puntaje)}
+                  </div>
+                </div>
               </div>
             </div>
           ))}

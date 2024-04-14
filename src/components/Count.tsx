@@ -31,8 +31,8 @@ function Count({ target, label }: CountProps) {
 
   return (
     <div className="bg-white h-24 w-48 rounded-xl mx-4 box-shadow text-brown flex flex-col items-center justify-center mb-6 sm:mb-0">
-      <h2 className="font-extrabold text-4xl pb-2">{count}</h2>
-      <p className="font-bold">{label}</p>
+      <h2 className="font-extrabold text-3xl pb-2">{count}</h2>
+      <p className="font-bold text-md">{label}</p>
     </div>
   );
 }

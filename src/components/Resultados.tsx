@@ -32,7 +32,7 @@ function Results() {
   const doubledResults = [...resultsInfo, ...resultsInfo];
 
   return (
-    <div className="font-bold text-brown pt-4 bg-pink">
+    <div className="font-bold text-brown py-8 bg-pink">
       <h2 className="text-2xl lg:text-3xl text-center">Resultados de mis alumnos</h2>
       <div className="w-4/5 mx-auto overflow-hidden py-8">
         <div className="flex animate-scroll duration-2000 justify-evenly">
