@@ -49,9 +49,10 @@ function Presenciales() {
             <p className="text-3xl text-brown font-bold py-4">Mis cursos presenciales</p>
             <p className="text-lg font-semibold text-brown sm:w-1/3 text-center pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. consectetur adipisicing elit. Sint dolor obcaecati distinctio nemo, accusamus repellat esse rerum sapiente tenetur eos?</p>
             <div className="sm:flex sm:flex-row items-center justify-center">
-                <CardCourse title="Curso de Pastelería" img={imgCourse3}  />
-                <CardCourse title="Curso de Laminados" img={imgCourse2}  />
-                <CardCourse title="Curso de Alfajores" img={imgCourse}  />
+                <CardCourse title="Pastelería sin gluten" img={imgCourse3} target={"_blank"} infoLink={"https://camilavillalobosvica.tiendup.com/e/pastelera-clsica-gluten-free-intensivo"}  />
+                <CardCourse title="Laminados franceses" img={imgCourse2} target={"_blank"} infoLink={"https://camilavillalobosvica.tiendup.com/e/laminados-franceses-plant-based"}  />
+                <CardCourse title="Alfajores sin gluten" img={imgCourse}  target={"_blank"} infoLink={"https://camilavillalobosvica.tiendup.com/e/alfajores-gluten-free-intensivo"} />
+                <CardCourse title="Tortas sin gluten" img={imgCourse}  target={"_blank"} infoLink={"https://camilavillalobosvica.tiendup.com/e/tortas-gluten-free"} />
             </div>
         </div>
         <Vsl title="Estos cursos son para vos si..." video={vsl} />

@@ -19,7 +19,7 @@ interface PageProps {
             style={{ zIndex: -10 }} 
           />
           <div className="bg-pink/70 relative z-0">
-            <div className='px-4 md:px-10 lg:px-20 xl:px-40 w-full md:w-[80%] h-screen flex flex-col justify-center items-center text-brown space-y-5 m-auto text-center text-montserrat'>
+            <div className='pb-24 lg:pb-0 px-4 md:px-10 lg:px-20 xl:px-40 w-full md:w-[80%] h-screen flex flex-col justify-center items-center text-brown space-y-5 m-auto text-center text-montserrat'>
               <span className='font-extrabold text-4xl lg:text-6xl max-w-4xl'>
                 {title}
               </span>
