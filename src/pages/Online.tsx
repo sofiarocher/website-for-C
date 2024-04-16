@@ -14,26 +14,26 @@ import Testimonios from "../components/Testimonios"
 const testimoniosData = [
   {
     id: 1,
-    descripcion: 'Excelente servicio, atención personalizada y resultados por encima de las expectativas.',
-    nombre: 'Alejandra Ruiz',
+    descripcion: 'Con los cursos de vica di mis primeros pasos en la pastelería vegana! el primer presencial que hice en 2020, pre pandemia, es la base de mis recetas hoy, que me ayudan a crear mis mejores tortas.',
+    nombre: 'Cami',
     puntaje: 5,
   },
   {
     id: 2,
-    descripcion: 'Excelente servicio, atención personalizada y resultados por encima de las expectativas.',
-    nombre: 'Roberto Hernández',
-    puntaje: 4,
+    descripcion: 'Admiración y gratitud!. Esto es lo que me inspira Cami y todo el equipo de VICA. Agradezco su dedicación, buena vibra y la nobleza con que fui tratada.',
+    nombre: 'Paulin',
+    puntaje: 4.5,
   },
   {
     id: 3,
-    descripcion: 'Excelente servicio, atención personalizada y resultados por encima de las expectativas.',
-    nombre: 'Carla Mendoza',
+    descripcion: 'Me encantaron los cursos. Aprendí muchísimo y me sentí cómoda. Es lindo ver cómo las recetas son 100% creadas por ustedes y siempre priorizan una buena materia prima. Es excelente calidad y explican todo a la perfección.',
+    nombre: 'Cande',
     puntaje: 5,
   },
   {
     id: 4,
-    descripcion: 'Excelente servicio, atención personalizada y resultados por encima de las expectativas.',
-    nombre: 'Carla Mendoza',
+    descripcion: 'Lo genial de lo online es que podes ver los videos todas las veces que quieras. También dan certificado al finalizar el curso, eso es clave. Me sirvió mucho para mi emprendimiento',
+    nombre: 'Agustina',
     puntaje: 5,
   },
 ];

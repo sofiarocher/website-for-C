@@ -13,7 +13,7 @@ function Newsletter() {
     if (!email.trim()) {
       setError('El campo no puede estar vacío.');
     } else if (!validateEmail(email)) {
-      setError('Por favor introduce un correo electrónico válido.');
+      setError('Introduce un correo electrónico válido.');
     } else {
       setError(''); // Limpia cualquier error anterior
     }

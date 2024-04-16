@@ -11,6 +11,7 @@ import Cam from "../assets/Cam.png"
 import Results from "../components/Resultados"
 import NewsletterModal from "../components/NewsletterModal"
 import { useEffect, useState } from "react"
+import SocialIcon from "../components/SocialIcon"
 
 function Home() {
     const [modalOpen, setModalOpen] = useState(false)
@@ -56,6 +57,7 @@ function Home() {
         <Newsletter />
         <Footer />
         {modalOpen && <NewsletterModal closeModal={handleCloseModal}/>}
+        <SocialIcon />
     </div>
   )
 }
