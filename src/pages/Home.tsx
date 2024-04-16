@@ -9,8 +9,20 @@ import Footer from "../components/Footer"
 import Newsletter from "../components/Newsletter"
 import Cam from "../assets/Cam.png"
 import Results from "../components/Resultados"
+import NewsletterModal from "../components/NewsletterModal"
+import { useEffect, useState } from "react"
 
 function Home() {
+    const [modalOpen, setModalOpen] = useState(false)
+
+    useEffect(() => {
+        setModalOpen(true);
+    }, []);
+
+    const handleCloseModal = () => {
+        setModalOpen(false);
+    };
+    
   return (
     <div>
         <Page 
@@ -43,6 +55,7 @@ function Home() {
         <Results />
         <Newsletter />
         <Footer />
+        {modalOpen && <NewsletterModal closeModal={handleCloseModal}/>}
     </div>
   )
 }

@@ -11,11 +11,10 @@ const PrevArrow = ({ onClick }: any) => (
       aria-label="Previous slide"
       type="button"
     >
-      {"<"} {/* Puedes reemplazar esto con un ícono o imagen si lo prefieres */}
+      {"<"}
     </button>
   );
   
-  // Componente para la flecha derecha (siguiente)
   const NextArrow = ({ onClick }: any) => (
     <button
       className="slick-next slick-arrow"
@@ -23,7 +22,7 @@ const PrevArrow = ({ onClick }: any) => (
       aria-label="Next slide"
       type="button"
     >
-      {">"} {/* Puedes reemplazar esto con un ícono o imagen si lo prefieres */}
+      {">"} 
     </button>
   );
 
@@ -46,7 +45,6 @@ function Galeria() {
             text: 'Primera manteca vegana de Argentina',
             description: 'Descripción para la manteca vegana...'
         }
-        // ... puedes agregar más diapositivas aquí
     ];
 
     const settings = {
