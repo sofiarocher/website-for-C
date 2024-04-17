@@ -10,8 +10,6 @@ import Results from "../components/Resultados"
 import Testimonios from "../components/Testimonios"
 import SocialIcon from "../components/SocialIcon"
 
-
-
 const testimoniosData = [
   {
     id: 1,

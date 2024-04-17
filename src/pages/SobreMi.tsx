@@ -7,6 +7,7 @@ import Places from "../components/Lugares"
 import Galeria from "../components/Galeria"
 import SocialIcon from "../components/SocialIcon"
 
+
 function SobreMi() {
   return (
     <div className="overflow-x-hidden">

@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import "animate.css"
 
 interface PageProps {
     videoSrc: any;
@@ -18,8 +19,8 @@ interface PageProps {
             className='object-cover absolute h-screen w-full -z-10 top-0 left-0'
             style={{ zIndex: -10 }} 
           />
-          <div className="bg-pink/70 relative z-0">
-            <div className='pb-24 lg:pb-0 px-4 md:px-10 lg:px-20 xl:px-40 w-full md:w-[80%] h-screen flex flex-col justify-center items-center text-brown space-y-5 m-auto text-center text-montserrat'>
+          <div className="bg-pink/70 relative z-0 ">
+            <div className='pb-24 lg:pb-0 px-4 md:px-10 lg:px-20 xl:px-40 w-full md:w-[80%] h-screen flex flex-col justify-center items-center text-brown space-y-5 m-auto text-center text-montserrat animate__animated animate__fadeIn'>
               <span className='font-extrabold text-4xl lg:text-6xl max-w-4xl'>
                 {title}
               </span>
