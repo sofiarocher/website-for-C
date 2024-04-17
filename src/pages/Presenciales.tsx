@@ -9,6 +9,7 @@ import Footer from "../components/Footer"
 import vsl from "../assets/bgvideo.mp4"
 import Results from "../components/Resultados"
 import Testimonios from "../components/Testimonios"
+import SocialIcon from "../components/SocialIcon"
 
 const testimoniosData = [
   {
@@ -59,6 +60,7 @@ function Presenciales() {
         <Testimonios testimonios={testimoniosData} />
         <Results />
         <Footer />
+        <SocialIcon />
     </div>
   )
 }

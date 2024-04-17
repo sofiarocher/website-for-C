@@ -5,6 +5,7 @@ import Cam from "../assets/Cam.png"
 import Contact from "../components/Contacto"
 import Places from "../components/Lugares"
 import Galeria from "../components/Galeria"
+import SocialIcon from "../components/SocialIcon"
 
 function SobreMi() {
   return (
@@ -31,6 +32,7 @@ function SobreMi() {
         <Places />
         <Contact />
         <Footer />
+        <SocialIcon />
     </div>
   )
 }
