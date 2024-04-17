@@ -58,7 +58,7 @@ function Galeria() {
     };
 
     return (
-        <div className='p-2 mb-4 w-full sm:w-4/5 m-auto'>
+        <div className='p-2 mb-4 w-full sm:w-3/4 m-auto'>
             <Slider ref={sliderRef} {...settings}>
                 {slidesData.map((slide, index) => (
                     <div key={index} className='!flex flex-col sm:flex-row items-center justify-center m-auto text-center overflow-x-hidden'>

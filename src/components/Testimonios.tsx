@@ -43,7 +43,7 @@ const Testimonios: React.FC<TestimoniosProps> = ({ testimonios }) => {
   };
 
   return (
-    <div className='bg-pink py-2 sm:px-28 '>
+    <div className='bg-pink py-2 sm:px-28 testimonios'>
       <div className="container mx-auto px-4 pb-12">
         <h2 className="text-center text-3xl font-bold my-6 text-brown">Testimonios</h2>
         <Slider {...settings} >

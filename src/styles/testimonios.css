@@ -1,36 +1,32 @@
 
 
-.slick-slide {
+.testimonios .slick-slide {
     transition: all 0.3s ease;
   }
   
-  /* Opacidad reducida para slides no activos */
-  .slick-slide:not(.slick-center) {
+ .testimonios .slick-slide:not(.slick-center) {
     opacity: 0.5;
   }
   
-  /* Estilos para los puntos (dots) de navegación */
-  .slick-dots li button:before {
+  .testimonios .slick-dots li button:before {
     font-size: 10px;
     color: #000;
   }
   
-  .slick-dots li.slick-active button:before {
+  .testimonios .slick-dots li.slick-active button:before {
     color: #000;
   }
   
-  /* Estilos para los botones de navegación previo y siguiente */
-  .slick-prev:before,
-  .slick-next:before {
+  .testimonios .slick-prev:before,
+  .testimonios .slick-next:before {
     color: #000;
   }
   
-  /* Estilo para el puntaje de estrellas */
-  .star-rating {
-    color: #ffd700; /* Color dorado para las estrellas activas */
+  .testimonios .star-rating {
+    color: #ffd700; 
   }
   
-  .star-rating.gray {
-    color: #d3d3d3; /* Color gris para las estrellas inactivas */
+  .testimonios .star-rating.gray {
+    color: #d3d3d3; 
   }
   
