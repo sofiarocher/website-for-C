@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, NavbarMenuToggle, NavbarMenu, NavbarMenuItem } from "@nextui-org/react";
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Image } from "@nextui-org/react";
 import Logo from "../assets/logo.png";
-import Arg from "../assets/arg-flag.webp";
 
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isEnglish, setIsEnglish] = useState(false);
 
   const menuItems = [
     { label: "Inicio", href: "/" },
@@ -23,7 +23,7 @@ function Nav() {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         />
         <NavbarBrand>
-          <img src={Logo} alt="Logo" className="w-14 ml-20 sm:ml-0" />
+          <Image src={Logo} alt="Logo" className="w-14 ml-20 sm:ml-0" />
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent className="hidden sm:flex gap-7" justify="center">
@@ -37,7 +37,7 @@ function Nav() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="lg:flex">
-          <img src={Arg} alt="Argentinian flag" width={30} />
+          <p className="font-semibold text-brown cursor-pointer" onClick={() => setIsEnglish(!isEnglish)}>{isEnglish ? "ESP" : "ENG"} </p>
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu className="bg-pink pt-4 sm:hidden">
