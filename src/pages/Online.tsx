@@ -10,6 +10,7 @@ import Results from "../components/Resultados"
 import Testimonios from "../components/Testimonios"
 import SocialIcon from "../components/SocialIcon"
 import Modalidad from "../components/Modalidad"
+import FAQ from "../components/FAQ"
 
 const testimoniosData = [
   {
@@ -58,6 +59,7 @@ function Online() {
             </div>
         </div>
         <Modalidad />
+        <FAQ />
         <Vsl title="Estos cursos son para vos si..." video={vsl} />
         <Testimonios testimonios={testimoniosData} />
         <Results />
