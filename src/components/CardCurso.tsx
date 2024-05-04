@@ -8,7 +8,7 @@ interface CardProps {
 
 function CardCourse({title, img, infoLink, target} : CardProps) {
     return (
-        <div className="h-56 w-48 relative rounded-xl overflow-hidden box-shadow mb-6 mx-12 sm:mt-4 hover:scale-110 duration-300">
+        <div className="h-56 w-[32%] lg:w-[300px] relative rounded-xl overflow-hidden box-shadow mb-6 mx-12 sm:mt-4 hover:scale-110 duration-300">
           <img src={img} className="object-cover h-full w-full"/>
           <div className="absolute inset-0 flex items-center justify-center text-white font-bold pt-16 bg-black/30">
             <div className="text-center text-monserrat">
