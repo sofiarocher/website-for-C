@@ -9,6 +9,7 @@ import vsl from "../assets/bgvideo.mp4"
 import Results from "../components/Resultados"
 import Testimonios from "../components/Testimonios"
 import SocialIcon from "../components/SocialIcon"
+import Modalidad from "../components/Modalidad"
 
 const testimoniosData = [
   {
@@ -56,6 +57,7 @@ function Online() {
                 <CardCourse title="Curso de Laminados" img={imgCourse2}  infoLink={"https://vica.tiendup.com/curso/curso-laminados-franceses"} target={"_blank"} />
             </div>
         </div>
+        <Modalidad />
         <Vsl title="Estos cursos son para vos si..." video={vsl} />
         <Testimonios testimonios={testimoniosData} />
         <Results />
