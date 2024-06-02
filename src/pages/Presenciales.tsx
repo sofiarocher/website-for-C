@@ -10,6 +10,8 @@ import vsl from "../assets/bgvideo.mp4"
 import Results from "../components/Resultados"
 import Testimonios from "../components/Testimonios"
 import SocialIcon from "../components/SocialIcon"
+import Modalidad from "../components/Modalidad"
+import FAQ from "../components/FAQ"
 
 
 const testimoniosData = [
@@ -57,9 +59,11 @@ function Presenciales() {
                 <CardCourse title="Tortas sin gluten" img={imgCourse}  target={"_blank"} infoLink={"https://camilavillalobosvica.tiendup.com/e/tortas-gluten-free"} />
             </div>
         </div>
+        <Modalidad />
         <Vsl title="Estos cursos son para vos si..." video={vsl} />
         <Testimonios testimonios={testimoniosData} />
         <Results />
+        <FAQ/>
         <Footer />
         <SocialIcon />
     </div>

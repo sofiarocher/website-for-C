@@ -6,6 +6,8 @@ import bgImage from "../assets/bgImage.jpg"
 import Vsl from "../components/Vsl"
 import Testimonios from "../components/Testimonios"
 import vsl from "../assets/bgvideo.mp4"
+import Modalidad from "../components/Modalidad"
+import FAQ from "../components/FAQ"
 
 
 
@@ -45,10 +47,11 @@ function Formacion() {
             description="Aprenderás todos los trucos para que tus postres sean más sabrosos y sencillos de hacer. Ahorrá tiempo y dinero, sumate hoy!" 
             buttonText="CURSOS DISPONIBLES" />
         
-       
         <Vsl title="Esta formación es para vos si..." video={vsl} />
+        <Modalidad />
         <Testimonios testimonios={testimoniosData} />
         <Results />
+        <FAQ />
         <Footer />
         <SocialIcon />
     </div>

@@ -59,10 +59,10 @@ function Online() {
             </div>
         </div>
         <Modalidad />
-        <FAQ />
         <Vsl title="Estos cursos son para vos si..." video={vsl} />
         <Testimonios testimonios={testimoniosData} />
         <Results />
+        <FAQ />
         <Footer />
         <SocialIcon />
     </div>
