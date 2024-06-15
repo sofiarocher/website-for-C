@@ -5,7 +5,7 @@ import Time from "../assets/time-icon.svg"
 
 function Modalidad() {
   return (
-    <section className="bg-pink flex flex-wrap items-end justify-center gap-8 sm:gap-24 sm:py-4 py-2 sm:px-0 px-24">
+    <section className="bg-pink flex flex-wrap flex-col items-center sm:flex-row justify-center gap-12 sm:gap-24 sm:py-4 pb-12 sm:px-0 px-24">
         <div className="flex flex-col items-center justify-center">
             <img src={Plant} alt="Plant Icon" width={54}/>
             <p className="font-semibold text-brown text-xl py-2 sm:py-4">100% Vegano</p>

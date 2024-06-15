@@ -1,9 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import LaminadosOnline from './cursos/LaminadosOnline'
+import Formacion from './pages/Formacion'
 import Home from "./pages/Home"
 import Online from './pages/Online'
 import Presenciales from './pages/Presenciales'
 import SobreMi from './pages/SobreMi'
-import Formacion from './pages/Formacion'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/online' Component={Online} />
           <Route path='/presenciales' Component={Presenciales} />
           <Route path='/formacion' Component={Formacion} />
+          <Route path='/curso-de-laminados-veganos-online' Component={LaminadosOnline}></Route>
         </Routes>
       </Router>
     </>
