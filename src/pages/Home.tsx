@@ -46,7 +46,7 @@ function Home() {
             </div>
         </div>
         <div className="flex flex-col items-center justify-center pt-6 bg-pink pb-20">
-            <p className="text-3xl text-brown font-bold py-4">Mis Servicios</p>
+            <p className="text-2xl sm:text-3xl text-brown font-bold py-4">Mis Servicios</p>
             <div className="sm:flex sm:flex-row items-center justify-center">
                 <CardCourse title="Cursos Online" img={imgCourse2} infoLink="/online" />
                 <CardCourse title="Cursos Presenciales" img={imgCourse} infoLink="/presenciales"/>

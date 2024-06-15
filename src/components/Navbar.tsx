@@ -1,21 +1,34 @@
 import { useState } from "react";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Image } from "@nextui-org/react";
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
+  Link,
+  NavbarMenuToggle,
+  NavbarMenu,
+  NavbarMenuItem,
+  Image,
+} from "@nextui-org/react";
 import Logo from "../assets/logo.png";
 
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isEnglish, setIsEnglish] = useState(false);
-
+/*   const [isEnglish, setIsEnglish] = useState(false);  */
   const menuItems = [
     { label: "Inicio", href: "/" },
     { label: "Sobre Mí", href: "/sobremi" },
     { label: "Online", href: "/online" },
     { label: "Presenciales", href: "/presenciales" },
-    { label: "Formación Intensiva", href: "/formacion" }
+    { label: "Formación Intensiva", href: "/formacion" },
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} position="static" className="bg-pink">
+    <Navbar
+      onMenuOpenChange={setIsMenuOpen}
+      position="static"
+      className="bg-pink"
+    >
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -37,7 +50,8 @@ function Nav() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="lg:flex">
-          <p className="font-semibold text-brown cursor-pointer" onClick={() => setIsEnglish(!isEnglish)}>{isEnglish ? "ESP" : "ENG"} </p>
+          {/* <p className="font-semibold text-brown cursor-pointer" onClick={() => setIsEnglish(!isEnglish)}>{isEnglish ? "ESP" : "ENG"} </p>  */}
+          <p> </p>
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu className="bg-pink pt-4 sm:hidden">
