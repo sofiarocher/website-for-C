@@ -3,7 +3,7 @@ import Online from "../assets/laptop-icon.svg"
 import Chat from "../assets/chat-icon.svg"
 import Time from "../assets/time-icon.svg"
 
-function Modalidad() {
+export default function Modality() {
   return (
     <section className="bg-pink flex flex-wrap flex-col items-center sm:flex-row justify-center gap-12 sm:gap-24 sm:py-4 pb-12 sm:px-0 px-24">
         <div className="flex flex-col items-center justify-center">
@@ -25,5 +25,3 @@ function Modalidad() {
     </section>
   )
 }
-
-export default Modalidad

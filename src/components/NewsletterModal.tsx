@@ -5,7 +5,7 @@ interface NewsletterModalProps {
   closeModal: () => void;
 }
 
-function NewsletterModal({ closeModal }: NewsletterModalProps) {
+export default function NewsletterModal({ closeModal }: NewsletterModalProps) {
   const [email, setEmail] = useState('');
   const [error, setError] = useState('');
 
@@ -43,5 +43,3 @@ function NewsletterModal({ closeModal }: NewsletterModalProps) {
     </div>
   )
 }
-
-export default NewsletterModal

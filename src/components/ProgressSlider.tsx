@@ -26,7 +26,7 @@ const PrevArrow = ({ onClick }: any) => (
     </button>
   );
 
-function Galeria() {
+export default function ProgressSlider() {
     const sliderRef = useRef(null);
 
     const slidesData = [
@@ -75,5 +75,3 @@ function Galeria() {
         </div>
     );
 }
-
-export default Galeria;

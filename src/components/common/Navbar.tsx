@@ -10,11 +10,11 @@ import {
   NavbarMenuItem,
   Image,
 } from "@nextui-org/react";
-import Logo from "../assets/logo.png";
+import Logo from "../../assets/logo.png";
 
-function Nav() {
+export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-/*   const [isEnglish, setIsEnglish] = useState(false);  */
+  /*   const [isEnglish, setIsEnglish] = useState(false);  */
   const menuItems = [
     { label: "Inicio", href: "/" },
     { label: "Sobre Mí", href: "/sobremi" },
@@ -71,5 +71,3 @@ function Nav() {
     </Navbar>
   );
 }
-
-export default Nav;

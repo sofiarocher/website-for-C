@@ -1,10 +1,10 @@
-import Page from "../components/Layout"
+import Page from "../components/Hero"
 import bgImage from "../assets/bgImage.jpg"
-import Footer from "../components/Footer"
+import Footer from "../components/common/Footer"
 import Cam from "../assets/Cam.png"
-import Contact from "../components/Contacto"
-import Places from "../components/Lugares"
-import Galeria from "../components/Galeria"
+import Contact from "../components/Contact"
+import Places from "../components/Places"
+import Galeria from "../components/ProgressSlider"
 import SocialIcon from "../components/SocialIcon"
 
 

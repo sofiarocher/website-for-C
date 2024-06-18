@@ -1,12 +1,8 @@
-import { useEffect, useState } from 'react';
-import { useInView } from 'react-intersection-observer';
+import { useEffect, useState } from "react";
+import { useInView } from "react-intersection-observer";
+import { CounterProps } from "../utils/interfaces";
 
-interface CountProps {
-  target: number;
-  label: string;
-}
-
-function Count({ target, label }: CountProps) {
+function Count({ target, label }: CounterProps) {
   const [count, setCount] = useState(0);
   const duration = 2000;
   const interval = 10;
@@ -37,13 +33,18 @@ function Count({ target, label }: CountProps) {
   );
 }
 
-function Counter() {
+export default function Counter() {
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
 
   return (
-    <div ref={ref} className={`bg-pink h-auto sm:h-40 pt-12 flex flex-col sm:flex-row items-center justify-center text-center ${inView ? 'animate-count' : ''}`}>
+    <div
+      ref={ref}
+      className={`bg-pink h-auto sm:h-40 pt-12 flex flex-col sm:flex-row items-center justify-center text-center ${
+        inView ? "animate-count" : ""
+      }`}
+    >
       {inView && <Count target={489} label="Alumnos Presenciales" />}
       {inView && <Count target={2670} label="Alumnos Online" />}
       {inView && <Count target={210} label="Clases Dictadas" />}
@@ -51,4 +52,3 @@ function Counter() {
   );
 }
 
-export default Counter;

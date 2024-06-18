@@ -1,7 +1,7 @@
 import Wpp from '../assets/wpp-icon.svg';
 import Ig from '../assets/ig-icon.svg';
 
-function SocialIcon() {
+export default function SocialIcon() {
     return (
         <div className="fixed bottom-4 right-4 flex items-center justify-center">
             <div className='bg-brown p-2 rounded-full shadow-xl shadow-black/50 mr-2 hover:scale-110 transition-all hidden sm:block'>
@@ -17,6 +17,3 @@ function SocialIcon() {
         </div>
     );
 }
-
-export default SocialIcon;
-
