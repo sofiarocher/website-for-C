@@ -1,11 +1,6 @@
-interface CardProps {
-  img: any;
-  title: string;
-  infoLink?: any;
-  target?: any;
-}
+import { CardCourseProps } from "../utils/interfaces";
 
-function CardCourse({ title, img, infoLink, target }: CardProps) {
+export default function CardCourse({ title, img, infoLink, target }:CardCourseProps) {
   return (
     <div className="h-56 w-[200px] lg:w-[300px] relative rounded-xl overflow-hidden box-shadow mb-6 mx-12 sm:mt-4 hover:scale-110 duration-300">
       <img src={img} className="object-cover h-full w-full" />
@@ -23,4 +18,3 @@ function CardCourse({ title, img, infoLink, target }: CardProps) {
   );
 }
 
-export default CardCourse;

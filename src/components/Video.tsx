@@ -1,10 +1,6 @@
+import { VideoProps } from "../utils/interfaces"
 
-interface VslProps {
-    title: string;
-    video: any;
-}
-
-function Vsl({title, video} : VslProps) {
+export default function Video({title, video} : VideoProps) {
   return (
     <div className="px-4 pb-8">
         <h2 className="text-brown font-bold text-center text-2xl my-3 sm:text-4xl sm:my-6">{title}</h2>
@@ -12,5 +8,3 @@ function Vsl({title, video} : VslProps) {
     </div>
   )
 }
-
-export default Vsl

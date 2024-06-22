@@ -1,6 +1,6 @@
 import "../styles/places.css";
 
-function Places() {
+export default function Places() {
   const placesInfo = [
     {
       city: "CABA, Argentina",
@@ -54,5 +54,3 @@ function Places() {
     </div>
   );
 }
-
-export default Places;

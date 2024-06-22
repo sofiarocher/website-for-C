@@ -14,7 +14,7 @@ interface TestimoniosProps {
   testimonios: Testimonio[];
 }
 
-const Testimonios: React.FC<TestimoniosProps> = ({ testimonios }) => {
+const Testimonials: React.FC<TestimoniosProps> = ({ testimonios }) => {
   const settings = {
     dots: false,
     infinite: true,
@@ -73,4 +73,4 @@ const Testimonios: React.FC<TestimoniosProps> = ({ testimonios }) => {
   );
 };
 
-export default Testimonios;
+export default Testimonials;

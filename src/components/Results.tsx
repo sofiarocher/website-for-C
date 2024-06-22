@@ -1,7 +1,7 @@
 import "../styles/places.css";
 import tortas from "../assets/tortas.jpeg";
 
-function Results() {
+export default function Results() {
   const resultsInfo = [
     {
       city: "Nombre alumno",
@@ -48,5 +48,3 @@ function Results() {
     </div>
   );
 }
-
-export default Results;

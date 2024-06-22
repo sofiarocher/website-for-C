@@ -1,13 +1,13 @@
-import Footer from "../components/Footer"
-import Page from "../components/Layout"
-import Results from "../components/Resultados"
+import Footer from "../components/common/Footer"
+import Page from "../components/Hero"
+import Results from "../components/Results"
 import SocialIcon from "../components/SocialIcon"
 import bgImage from "../assets/bgImage.jpg"
-import Vsl from "../components/Vsl"
-import Testimonios from "../components/Testimonios"
+import Vsl from "../components/Video"
+import Testimonios from "../components/Testimonials"
 import vsl from "../assets/bgvideo.mp4"
-import Modalidad from "../components/Modalidad"
-import FAQ from "../components/FAQ"
+import Modalidad from "../components/Modality"
+import FAQ from "../components/Faq"
 
 
 

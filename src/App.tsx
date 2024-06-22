@@ -1,5 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import LaminadosOnline from './cursos/LaminadosOnline'
+import LaminadosOnline from './courses/LaminadosOnline'
 import Formacion from './pages/Formacion'
 import Home from "./pages/Home"
 import Online from './pages/Online'
