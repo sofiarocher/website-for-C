@@ -17,10 +17,10 @@ export default function Nav() {
   /*   const [isEnglish, setIsEnglish] = useState(false);  */
   const menuItems = [
     { label: "Inicio", href: "/" },
-    { label: "Sobre Mí", href: "/sobremi" },
-    { label: "Online", href: "/online" },
-    { label: "Presenciales", href: "/presenciales" },
-    { label: "Formación Intensiva", href: "/formacion" },
+    { label: "Sobre Mí", href: "/camila-villalobos-pastelera-vegana" },
+    { label: "Online", href: "/cursos-online-pasteleria-vegana-sin-gluten" },
+    { label: "Presenciales", href: "/cursos-presenciales-pasteleria-vegana-sin-gluten" },
+    { label: "Formación Intensiva", href: "/carrera-intensiva-pasteleria-vegana" },
   ];
 
   return (

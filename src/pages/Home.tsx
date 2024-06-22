@@ -67,12 +67,12 @@ function Home() {
           <CardCourse
             title="Cursos Online"
             img={imgCourse2}
-            infoLink="/online"
+            infoLink="/cursos-online-pasteleria-vegana-sin-gluten"
           />
           <CardCourse
             title="Cursos Presenciales"
             img={imgCourse}
-            infoLink="/presenciales"
+            infoLink="/cursos-presenciales-pasteleria-vegana-sin-gluten"
           />
         </div>
         <CardFormacion />

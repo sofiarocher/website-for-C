@@ -48,12 +48,13 @@ function Presenciales() {
             videoSrc={bgImage} 
             title="Cursos Presenciales" 
             description="Aprenderás todos los trucos para que tus postres sean más sabrosos y sencillos de hacer. Ahorrá tiempo y dinero, sumate hoy!" 
-            buttonText="CURSOS DISPONIBLES" />
+            buttonText="CURSOS DISPONIBLES"
+            buttonLink="#inpersonCourses" />
         <div className="flex flex-col items-center justify-center pt-6 bg-pink pb-20">
-            <p className="text-3xl text-brown font-bold py-4">Mis cursos presenciales</p>
+            <p className="text-3xl text-brown font-bold py-4" id="inpersonCourses">Mis cursos presenciales</p>
             <p className="text-lg font-semibold text-brown sm:w-1/3 text-center pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. consectetur adipisicing elit. Sint dolor obcaecati distinctio nemo, accusamus repellat esse rerum sapiente tenetur eos?</p>
-            <div className="sm:flex sm:flex-row items-center justify-center">
-                <CardCourse title="Pastelería sin gluten" img={imgCourse3} target={"_blank"} infoLink={"https://camilavillalobosvica.tiendup.com/e/pastelera-clsica-gluten-free-intensivo"}  />
+            <div className="sm:flex sm:flex-row flex-wrap items-center justify-center lg:grid lg:grid-cols-2 lg:gap-4">
+            <CardCourse title="Pastelería sin gluten" img={imgCourse3} target={"_blank"} infoLink={"/curso-pasteleria-vegana-online"}  />
                 <CardCourse title="Laminados franceses" img={imgCourse2} target={"_blank"} infoLink={"https://camilavillalobosvica.tiendup.com/e/laminados-franceses-plant-based"}  />
                 <CardCourse title="Alfajores sin gluten" img={imgCourse}  target={"_blank"} infoLink={"https://camilavillalobosvica.tiendup.com/e/alfajores-gluten-free-intensivo"} />
                 <CardCourse title="Tortas sin gluten" img={imgCourse}  target={"_blank"} infoLink={"https://camilavillalobosvica.tiendup.com/e/tortas-gluten-free"} />

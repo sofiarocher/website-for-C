@@ -95,7 +95,7 @@ export default function NewsletterModal({ closeModal }: NewsletterModalProps) {
             className={`font-bold px-5 py-2 rounded-xl hover:scale-110 duration-300 text-brown ${buttonColor} ${buttonTextColor}`}
           >
             {buttonText}
-            {emailSent && <p className="text-green-600 text-xs pt-4">Correo enviado con éxito!</p>}
+            {emailSent}
           </button>
         </form>
       </div>

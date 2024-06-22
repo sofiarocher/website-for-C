@@ -85,7 +85,7 @@ export default function Newsletter() {
         >
           {sendingEmail ? "Enviando..." : buttonText}
         </button>
-        {emailSent && <p className="text-green-600 text-xs pt-4">Correo enviado con éxito!</p>}
+        {emailSent}
       </form>
     </div>
   );

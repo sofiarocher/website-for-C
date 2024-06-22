@@ -8,7 +8,7 @@ function CardFormacion() {
         className="object-cover h-full w-full"
         alt="Curso Image"
       />
-      <a href="/" rel="noopener noreferrer">
+      <a href="/carrera-intensiva-pasteleria-vegana" rel="noopener noreferrer">
         <div className="absolute inset-0 flex items-center justify-center text-white font-bold bg-black/40">
           <div className="text-center sm:w-3/4 text-montserrat pt-8 sm:pt-12">
             <p className="text-2xl pb-12 px-2 sm:pb-8 ">Formación Intensiva</p>
