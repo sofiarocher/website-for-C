@@ -7,7 +7,7 @@ import Vsl from "../components/Video"
 import Testimonios from "../components/Testimonials"
 import vsl from "../assets/bgvideo.mp4"
 import Modalidad from "../components/Modality"
-import FAQ from "../components/Faq"
+import Faq from "../components/FAQ";
 
 
 
@@ -51,7 +51,7 @@ function Formacion() {
         <Modalidad />
         <Testimonios testimonios={testimoniosData} />
         <Results />
-        <FAQ />
+        <Faq />
         <Footer />
         <SocialIcon />
     </div>

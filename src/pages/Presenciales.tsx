@@ -11,7 +11,7 @@ import Results from "../components/Results"
 import Testimonios from "../components/Testimonials"
 import SocialIcon from "../components/SocialIcon"
 import Modalidad from "../components/Modality"
-import FAQ from "../components/Faq"
+import Faq from "../components/FAQ";
 
 
 const testimoniosData = [
@@ -63,7 +63,7 @@ function Presenciales() {
         <Vsl title="Estos cursos son para vos si..." video={vsl} />
         <Testimonios testimonios={testimoniosData} />
         <Results />
-        <FAQ/>
+        <Faq/>
         <Footer />
         <SocialIcon />
     </div>

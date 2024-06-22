@@ -64,7 +64,7 @@ export default function Newsletter() {
     <div className="bg-white px-10 py-6 rounded-3xl flex flex-col items-center text-center text-brown text-montserrat relative">
       <h2 className="font-bold text-2xl pb-4">NEWSLETTER</h2>
       <p className="font-medium pb-4">
-      Compartiremos recetas, novedades, tips y contenido exclusivo. Sumate con tu mail: 
+        Compartiremos recetas, novedades, tips y contenido exclusivo. Sumate con tu mail:
       </p>
       <form onSubmit={handleSubscribe} className="flex flex-col">
         <input
@@ -75,14 +75,17 @@ export default function Newsletter() {
           }`}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          disabled={sendingEmail}
         />
         {error && <p className="text-red-600 text-xs pb-4">{error}</p>}
         <button
           type="submit"
           className={`font-bold px-5 py-2 rounded-xl hover:scale-110 duration-300 text-brown ${buttonColor} ${buttonTextColor}`}
+          disabled={sendingEmail}
         >
-          {buttonText}
+          {sendingEmail ? "Enviando..." : buttonText}
         </button>
+        {emailSent && <p className="text-green-600 text-xs pt-4">Correo enviado con éxito!</p>}
       </form>
     </div>
   );
