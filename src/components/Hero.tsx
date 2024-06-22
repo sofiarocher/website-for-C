@@ -2,7 +2,24 @@ import { HeroProps } from "../utils/interfaces";
 import Navbar from "./common/Navbar";
 import "animate.css";
 
-export default function Hero({ videoSrc, title, description, buttonText }: HeroProps) {
+export default function Hero({
+  videoSrc,
+  title,
+  description,
+  buttonText,
+  buttonLink,
+}: HeroProps) {
+
+   const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+    const targetId = buttonLink.split('#')[1];
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+
   return (
     <div className="overflow-x-hidden relative">
       <Navbar />
@@ -18,12 +35,14 @@ export default function Hero({ videoSrc, title, description, buttonText }: HeroP
             <span className="font-extrabold text-4xl lg:text-6xl max-w-4xl">
               {title}
             </span>
-            <span className="text-xl md:text-2xl font-semibold w-full md:w-[78%]">
+            <span className="text-xl md:text-xl font-semibold w-full md:w-[78%]">
               {description}
             </span>
-            <button className="w-[80%] md:w-fit px-6 py-2 rounded-full bg-white font-bold text-md md:text-lg hover:bg-creme hover:scale-110 duration-300">
-              {buttonText}
-            </button>
+            <a href={buttonLink} onClick={handleSmoothScroll}>
+              <button className="w-[80%] md:w-fit px-6 py-2 rounded-full bg-white font-bold text-md md:text-lg hover:bg-creme hover:scale-110 duration-300">
+                {buttonText}
+              </button>
+            </a>
           </div>
         </div>
       </div>

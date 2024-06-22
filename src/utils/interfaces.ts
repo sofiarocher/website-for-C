@@ -24,6 +24,7 @@ export interface HeroProps {
     title: string;
     description: string;
     buttonText: string;
+    buttonLink: string;
 }
 
 export interface VideoProps {

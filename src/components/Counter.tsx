@@ -45,9 +45,9 @@ export default function Counter() {
         inView ? "animate-count" : ""
       }`}
     >
-      {inView && <Count target={489} label="Alumnos Presenciales" />}
-      {inView && <Count target={2670} label="Alumnos Online" />}
-      {inView && <Count target={210} label="Clases Dictadas" />}
+      {inView && <Count target={622} label="Alumnos Presenciales" />}
+      {inView && <Count target={4190} label="Alumnos Online" />}
+      {inView && <Count target={157} label="Clases Dictadas" />}
     </div>
   );
 }
