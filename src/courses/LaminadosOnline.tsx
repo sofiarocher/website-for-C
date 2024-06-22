@@ -1,8 +1,8 @@
-import FAQ from "../components/Faq";
-import Footer from "../components/common/Footer";
 import InfoCurso from "../components/CourseInfo";
-import Navbar from "../components/common/Navbar";
+import Faq from "../components/FAQ";
 import Resultados from "../components/Results";
+import Footer from "../components/common/Footer";
+import Navbar from "../components/common/Navbar";
 
 function LaminadosOnline() {
   return (
@@ -16,7 +16,7 @@ function LaminadosOnline() {
         buyLink="/"
         price="42.000"
       />
-      <FAQ />
+      <Faq />
       <Resultados />
       <Footer />
     </div>

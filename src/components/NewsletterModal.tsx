@@ -86,6 +86,7 @@ export default function NewsletterModal({ closeModal }: NewsletterModalProps) {
               error ? "border-red-500" : ""
             }`}
             value={email}
+            disabled={sendingEmail}
             onChange={(e) => setEmail(e.target.value)}
           />
           {error && <p className="text-red-600 text-xs pb-4">{error}</p>}
@@ -94,6 +95,7 @@ export default function NewsletterModal({ closeModal }: NewsletterModalProps) {
             className={`font-bold px-5 py-2 rounded-xl hover:scale-110 duration-300 text-brown ${buttonColor} ${buttonTextColor}`}
           >
             {buttonText}
+            {emailSent && <p className="text-green-600 text-xs pt-4">Correo enviado con éxito!</p>}
           </button>
         </form>
       </div>
